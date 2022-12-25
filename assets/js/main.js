@@ -92,6 +92,4 @@ function loadPokemonItens(offset, limit){
         loadPokemonItens(offset, limit)
     })
     
-//cada then recebe um retorno, o pirmeiro then vai receber o retorno da promise, fetch. 
-//o segundo then vai receber o retorno do primeiro then, e assim por diante, criando assim um
-//encadeamento
+
